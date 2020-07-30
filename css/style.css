@@ -10,7 +10,7 @@ p {
 }
 .btn {
     border: 3px solid #fec63e;
-    padding: 10px;
+    padding: 10px 30px;
     color: #fec63e;
     font-size: 14px;
     line-height: 20px;
@@ -97,8 +97,8 @@ p {
 .quote-externo {
     max-width: 320px;
     margin: 0 auto;
-    color: #ffffff;
     margin-bottom: 40px;
+    color: #ffffff;
 }
 
 .quote-externo p {
@@ -123,11 +123,11 @@ p {
 /* Produtos */
 .produtos {
     padding: 60px 0;
-    text-align: center;
 }
 
 .produtos_lista li {
-    background-color: #fec63e;
+    background: #fec63e;
+    text-align: center;
 }
 .produtos_lista li h3 {
     font-weight: bold;
@@ -135,6 +135,7 @@ p {
     line-height: 25px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    margin-top: 20px;
 }
 .produtos_lista li h3::after {
     content: "";
@@ -162,4 +163,26 @@ p {
 
 .call p {
     margin-bottom: 20px;
+}
+
+/* Portfólio */
+
+.portfolio {
+    width: 100%;
+    background-color: #000000;
+    padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+    color: #fec63e;
+}
+.portfolio .subtitulo::after {
+    background-color: #fec63e;
+}
+
+.portfolio_lista li:last-child {
+    margin-top: 20px;
+}
+.portfolio .call p {
+    color: #ffffff;
 }
