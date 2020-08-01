@@ -67,6 +67,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 /* Header */
 .header {
@@ -80,11 +81,10 @@ img {
 
 .header_menu {
     text-align: right;
-    margin-top: 20px;
 }
 .header_menu ul li {
-    display: inline;
-    margin-left: 25px;
+    display: inline-block;
+    margin: 20px 25px 0 0;
 }
 .header_menu ul li a {
     color: #000000;
@@ -93,7 +93,7 @@ img {
     letter-spacing: 0.1em;
     font-size: 14px;
     line-height: 20px;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .header_menu ul li a:hover {
@@ -102,8 +102,6 @@ img {
 
 .header_menu ul li a.menu-ativo {
     color: #ffffff;
-    border-bottom: #ffffff;
-    border-style: solid;
 }
 
 /* Introdução */
@@ -182,6 +180,11 @@ img {
     background: #fec63e;
     text-align: center;
 }
+
+.produtos_lista li img {
+    margin: 0 auto;
+}
+
 .produtos_lista li h3 {
     font-weight: bold;
     font-size: 18px;
